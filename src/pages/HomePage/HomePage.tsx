@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet'
-import { TestDiv } from './styled'
+import { TestDiv } from 'src/pages/styled'
 const HomePage: React.FC = () => {
     return <>
         <Helmet>
