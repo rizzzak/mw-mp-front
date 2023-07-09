@@ -1,5 +1,5 @@
 
-export const pathsPublic: { [k: string]: string } = { home: '/', }
+export const pathsPublic: { [k: string]: string } = { home: '/', productDetails: '/product/:idOrSlug'}
 
 export const pathsPrivate: { [k: string]: string } = { AccountSettings: '/account-settings'}
 
