@@ -1,7 +1,7 @@
 
 export const pathsPublic: { [k: string]: string } = { home: '/', }
 
-export const pathsPrivate: { [k: string]: string } = { accountSettings: '/account-settings'}
+export const pathsPrivate: { [k: string]: string } = { AccountSettings: '/account-settings'}
 
 export const paths: { [k: string]: string } = Object.assign({}, pathsPublic, pathsPrivate);
 
@@ -20,3 +20,4 @@ export const checkPathMatch = (pathname: string, paths: { [k : string]: string},
     })
     return isMatch
 }
+

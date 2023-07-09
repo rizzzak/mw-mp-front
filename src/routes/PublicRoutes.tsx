@@ -2,7 +2,7 @@ import { lazy } from 'react'
 import { Route, Navigate, Routes, useLocation } from 'react-router-dom'
 import { checkPathMatch, paths } from 'src/routes/helpers'
 
-const HomePage = lazy(() => import('src/pages/HomePage/HomePage'))
+const HomePage = lazy(() => import('src/pages/HomePage'))
 const PublicRoutes: React.FC = () => {
     const location = useLocation()
     const isMatch = checkPathMatch(location.pathname, paths)
@@ -16,3 +16,4 @@ const PublicRoutes: React.FC = () => {
 }
 
 export default PublicRoutes
+
