@@ -1,11 +1,10 @@
 import { Helmet } from 'react-helmet'
-import { TestDiv } from 'src/pages/styled'
 const HomePage: React.FC = () => {
     return <>
         <Helmet>
             <title>Главная - MarketPlace</title>
         </Helmet>
-        <TestDiv />
+        <h1>Главная</h1>
     </>
 }
 export default HomePage
